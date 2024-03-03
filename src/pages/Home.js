@@ -9,8 +9,10 @@ function Home(){
     return<>
         <div className="homeArea">
             <img src="mine.jfif" alt="Thilak"></img>
-            <div className="homeDetails">
-                {intro}
+            {intro}
+        </div>
+        <div className="homeDetails">
+                
                 <h3>Eduaction</h3>
                 <ul>
                     {educationDetails.map(text => <li>{text}</li>)}
@@ -24,7 +26,6 @@ function Home(){
                         {softSkills.map(skill => <li> {skill} </li>)}
                 </ul>
             </div>
-        </div>
     </>
 }
 
