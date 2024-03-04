@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    background-color: #FFF3DA ;
+    background-color: #FBF8F1 ;
 }
 
 .nav{
@@ -32,7 +32,7 @@ body{
 .nav a{
     text-decoration: none;
     color: inherit;
-    font: bold 11px Arial;
+    font: bold 18px Arial;
     text-decoration: none;
     background-color: #F8DE22;
     color: #333333;
@@ -54,7 +54,7 @@ body{
 
 .btn{
     
-    font: bold 11px Arial;
+    font: bold 18px Arial;
     text-decoration: none;
 	background-color: #F8DE22;
     color: black;
@@ -92,15 +92,19 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    align-items: flex-start;
+    background-color: #CBFFA9;
+    align-items: center;
+    width: 200px;
+    border-radius: 5%;
     
 }
 
 .contactDetails a{
     text-decoration: none;
     font-size: 1.5rem;
-    color: rgb(93, 10, 10);
+    color: black;
     font-family: fantasy;
+    
 }
 
 .contactArea a:hover{
@@ -112,6 +116,7 @@ body{
 .homeArea{
     display: flex;
     height: 100%;
+    gap: 0.5rem;
 }
 .homeArea p{
     font-family: fantasy;
@@ -126,14 +131,19 @@ body{
     
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    
 
 }
 
 
 .homeDetails ul{
-    color: #594545;
+    color: black;
     padding-left: 2rem;
     font-family: fantasy;
+    background-color: #CBFFA9;
+    border-radius: 5%;
+    
 }
 
 .homeDetails h3{
@@ -157,7 +167,7 @@ body{
 .achievementsArea{
     display: flex;
     flex-direction: column;
-    
+    gap: 0.5rem;
 }
 
 .achievementsArea h3{
@@ -170,8 +180,10 @@ body{
 
 .achievementsArea ul{
     padding-left: 2rem;
-    color: #594545;
+    color: black;
     font-family: fantasy;
+    background-color: #CBFFA9;
+    border-radius: 5%;
 }
 
 .newLine {
