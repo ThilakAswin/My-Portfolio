@@ -9,7 +9,7 @@ function Home(){
     return<>
         <div className="homeArea">
             <img src="mine.jfif" alt="Thilak"></img>
-            {intro}
+            <p>{intro}</p>
         </div>
         <div className="homeDetails">
                 

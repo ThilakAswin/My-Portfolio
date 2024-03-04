@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    background-color: antiquewhite;
+    background-color: #FFF3DA ;
 }
 
 .nav{
@@ -14,8 +14,8 @@ body{
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
-    background-color: dimgrey;
-    color: white;
+    background-color: #1F1717;
+    color: #F8DE22;
     flex-wrap: wrap;
 }
 
@@ -25,13 +25,22 @@ body{
     display: flex;
     list-style: none;
     gap: 2rem;
-    
+    padding-bottom: 1rem;
 }
 
 
 .nav a{
     text-decoration: none;
     color: inherit;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #F8DE22;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
 }
 
 .nav a:hover{
@@ -40,16 +49,21 @@ body{
 
 .title{
     font-size: 2rem;
+    
 }
 
 .btn{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    
+    font: bold 11px Arial;
+    text-decoration: none;
+	background-color: #F8DE22;
+    color: black;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
 }
 
 .btn:hover{
@@ -70,6 +84,8 @@ body{
 .contactArea h1{
     color: red;
     text-decoration: underline;
+    font:  20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contactDetails{
@@ -84,6 +100,7 @@ body{
     text-decoration: none;
     font-size: 1.5rem;
     color: rgb(93, 10, 10);
+    font-family: fantasy;
 }
 
 .contactArea a:hover{
@@ -96,6 +113,9 @@ body{
     display: flex;
     height: 100%;
 }
+.homeArea p{
+    font-family: fantasy;
+}
 .homeArea img{
     
     width: 50%;
@@ -106,21 +126,22 @@ body{
     
     display: flex;
     flex-direction: column;
-    
-    
+
 }
 
 
 .homeDetails ul{
-    color: rgb(93, 10, 10);
-    font-weight: bold;
+    color: #594545;
     padding-left: 2rem;
+    font-family: fantasy;
 }
 
 .homeDetails h3{
     color: red;
     padding-top: 1rem;
     text-decoration: underline;
+    font: 20px Arial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {
@@ -143,10 +164,14 @@ body{
     color: red;
     padding-top: 1rem;
     text-decoration: underline;
+    font:  20px Arial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .achievementsArea ul{
     padding-left: 2rem;
+    color: #594545;
+    font-family: fantasy;
 }
 
 .newLine {
